@@ -1,0 +1,130 @@
+.footer{
+    margin-top: 75rem;
+    padding-bottom: 150rem;
+}
+.footer__box{
+    display: flex;
+    align-items: center;
+}
+.footer__left{
+    width: 136rem;
+    height: 136rem;
+}
+.footer__right{
+    margin-left: 10rem;
+}
+
+.footer__right-title{
+    font-size: 15rem;
+    line-height: 21rem;
+    font-family: 'Ledger';
+}
+.footer__right-line{
+    width: 1100rem;
+    height: 10rem;
+    background-color: #4A7974;
+    border-radius: 4rem;
+    margin-top: 10rem;
+}
+
+
+// Footer Wrapper
+
+.footer__wrapper{
+    margin-top: 50rem;
+    display: grid;
+    grid-template-columns: 420rem 360rem 310rem;
+    justify-content: space-between;
+}
+
+.footer__inner_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 68, 61, 0.1);
+    border-radius: 7rem;
+    height: 465rem;
+}
+.footer__img-box{
+    border: 4rem solid rgba(0, 68, 60, 0.4);
+    border-radius: 7rem;
+}
+.footer__left-img{
+    width: 357rem;
+    height: 349rem;
+    
+}
+
+.footer__left-title{
+    font-size: 25rem;
+    line-height: 29rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: rgba(0, 69, 61, 0.7);
+}
+.footer__left-text{
+    font-size: 19rem;
+    line-height: 24rem;
+    font-family: 'Lora';
+    font-weight: 400;
+}
+
+
+
+.footer__inner_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400rem;
+}
+.footer__center-title{
+    font-size: 34rem;
+    line-height: 47rem;
+    font-family: 'Ledger';
+    font-weight: 400;
+
+}
+.footer__center-subtitle{
+    font-size: 20rem;
+    line-height: 26rem;
+    font-family: 'Lora';
+    font-weight: 400;
+}
+.footer__center-li{
+    font-size: 19rem;
+    line-height: 32rem;
+    list-style: none;
+    font-family: 'Lora';
+    font-weight: 400;
+}
+.footer__center-text{
+    font-size: 19rem;
+    line-height: 24rem;
+    font-family: 'Lora';
+    font-weight: 400;
+}
+
+
+
+.footer__right-title{
+    font-size: 26rem;
+    line-height: 36rem;
+    font-family: 'Ledger';
+    font-weight: 400;
+}
+.footer__right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200rem;
+    margin-top: 40rem;
+
+}
+.footer__right-text{
+    font-size: 20rem;
+    line-height: 26rem;
+    text-align: center;
+    
+}
